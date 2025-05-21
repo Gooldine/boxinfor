@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Три Бокса</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(to right, #6a11cb, #2575fc);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      color: white;
+    }
+
+    .container {
+      display: flex;
+      gap: 20px;
+      padding: 40px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .box-container {
+      text-align: center;
+    }
+
+    .box {
+      padding: 20px;
+      border-radius: 12px;
+      background-color: rgba(255, 255, 255, 0.1);
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+      width: 300px;
+      max-height: 80vh;
+      overflow-y: auto;
+    }
+
+    .box img {
+      width: 100%;
+      border-radius: 8px;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      line-height: 1.6;
+      font-size: 16px;
+    }
+
+    h2 {
+      margin-top: 0;
+      font-size: 24px;
+      color: #ffffff;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="box-container">
+      <h2>Маленький Бокс</h2>
+      <img src="https://via.placeholder.com/300x200?text=Small+Box" alt="Small Box">
+      <div class="box">
+        <ul>
+          <li>Doctor</li>
+          <li>Cowboy</li>
+          <li>Miner</li>
+          <li>Ничего</li>
+          <li>High Roller</li>
+          <li>Survivalist</li>
+          <li>Vampire</li>
+          <li>Ничего</li>
+          <li>Werewolf</li>
+          <li>Ничего</li>
+          <li>Ironclad</li>
+          <li>Arsonist</li>
+          <li>Priest</li>
+          <li>Conductor</li>
+          <li>Necromancer</li>
+          <li>Деревяный Поезд</li>
+          <li>Ничего</li>
+          <li>Packmaster</li>
+          <li>Alamo</li>
+          <li>Musician</li>
+          <li>Milkman</li>
+          <li>Ничего</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="box-container">
+      <h2>Средний Бокс</h2>
+      <img src="https://via.placeholder.com/300x200?text=Medium+Box" alt="Medium Box">
+      <div class="box">
+        <ul>
+          <li>Doctor</li>
+          <li>Cowboy</li>
+          <li>Miner</li>
+          <li>Ничего</li>
+          <li>High Roller</li>
+          <li>Железный Поезд</li>
+          <li>Survivalist</li>
+          <li>Vampire</li>
+          <li>Werewolf</li>
+          <li>Золотой поезд</li>
+          <li>Ничего</li>
+          <li>Ironclad</li>
+          <li>Arsonist</li>
+          <li>Priest</li>
+          <li>Conductor</li>
+          <li>Necromancer</li>
+          <li>Деревяный Поезд</li>
+          <li>Ничего</li>
+          <li>Packmaster</li>
+          <li>Alamo</li>
+          <li>Musician</li>
+          <li>Milkman</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="box-container">
+      <h2>Большой Бокс</h2>
+      <img src="https://via.placeholder.com/300x200?text=Large+Box" alt="Large Box">
+      <div class="box">
+        <ul>
+          <li>Doctor</li>
+          <li>Cowboy</li>
+          <li>Miner</li>
+          <li>High Roller</li>
+          <li>Железный Поезд</li>
+          <li>Survivalist</li>
+          <li>Vampire</li>
+          <li>Werewolf</li>
+          <li>Золотой поезд</li>
+          <li>Ironclad</li>
+          <li>Arsonist</li>
+          <li>Priest</li>
+          <li>Conductor</li>
+          <li>Necromancer</li>
+          <li>Деревяный Поезд</li>
+          <li>Packmaster</li>
+          <li>Alamo</li>
+          <li>Musician</li>
+          <li>Milkman</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
